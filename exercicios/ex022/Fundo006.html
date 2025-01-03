@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens</title>
+    <title>Fndo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -12,14 +12,19 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
         }
         main {
             background-color: white;
-            width: 380px;
+            max-width: 380px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+
+            /* Shorthand - background color
+            image > position > repeat > [size] / attachment
+            */
 
         }
     </style>
